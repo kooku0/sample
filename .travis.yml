@@ -9,4 +9,4 @@ script:
  - webpack
 after_success:
  - firebase deploy --token $FIREBASE_TOKEN --non-interactive
- - npm run lh -- --perf=95 https://staging.example.com
+ - npm run lh -- https://staging.example.com
