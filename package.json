@@ -4,11 +4,12 @@
   "description": "Use Lighthouse bot to set a performance budget.",
   "scripts": {
     "start": "webpack && http-server -c-1",
-    "lh": "lighthouse-ci"
+    "lh": "lighthousebot"
   },
   "dependencies": {
-    "lodash": "^4.7.0",
-    "firebase-tools": "^6.0.1"
+    "firebase-tools": "^6.0.1",
+    "lighthousebot": "git+https://github.com/ebidel/lighthousebot.git",
+    "lodash": "^4.7.0"
   },
   "devDependencies": {
     "http-server": "^0.11.1",
