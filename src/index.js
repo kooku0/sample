@@ -27,7 +27,7 @@ const input3 = document.getElementById("input3");
 form.addEventListener("submit", e => {
   e.preventDefault()
   const values = [input1.valueAsNumber, input2.valueAsNumber, input3.valueAsNumber];
-  const sortedValues = _.sortBy(values);
+  const sortedValues = _.sortBy(values)
 
   results.innerHTML = `
     <h2>
