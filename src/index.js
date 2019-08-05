@@ -15,7 +15,7 @@ limitations under the License.
 */
 
 import "./style.css";
-import _ from "lodash";
+import _ from "lodash"
 
 const form = document.getElementById("form");
 const results = document.getElementById("results")
